@@ -1,0 +1,382 @@
+/* Section1 */
+#carouselExampleFade{
+    position: relative;
+}
+.carousel-inner img {
+    width: 100%;
+    opacity: 0.1;
+    opacity: 0.1;
+    height: 629.703px;
+    object-fit: cover;
+}
+
+.img-slidemovie {
+    height: 597.109px;
+}
+
+.col-1-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-next-pre button {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-next-pre  {
+    display: flex;
+}
+
+
+.slide-img .container {
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    z-index: 2;
+}
+
+.col-1-1 .home__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 42px;
+    margin: 0;
+    padding-right: 70px;
+}
+
+.home__title b {
+    font-weight: 600;
+}
+
+.img-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #222028;
+    width: 233px;
+}
+
+.img-img  img {
+
+    width: 100%;
+}
+
+.card__rate {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    top: 15px;
+    left: 15px;
+    background-color: rgba(26,25,31,0.6);
+    border: 2px solid yellow;
+    border-radius: 50%;
+}
+
+.card__title {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+.card__title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card__category {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.card__category a {
+    font-size: 16px;
+    position: relative;
+    color: #f9ab00;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.col-2-2 {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Section2 */
+
+.content__title {
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.content__tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content__tabs a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 54px;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0px;
+}
+
+.li-category {
+    padding: 0px 20px;
+}
+
+.content__head .container {
+    margin-top: 20px;
+    display: flex !important;
+    flex-direction: column;
+}
+
+.content__head {
+    border-bottom: 1px solid #222028;
+}
+
+li a:hover {
+    color: #f9ab00;
+}
+
+.content__tabd li a {
+    font-size: 14px;
+}
+
+.content .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ss2 {
+    width: 188px !important;
+}
+
+/* Section3 */
+
+.col1-1-2 .section__nav a,button {
+    background-color: #222028;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+    text-decoration: none;
+    color: #fff ;
+}
+
+.col1-1-2 .section__nav a:hover {
+    color: #f9ab00 ;
+ }
+
+.col1-1-2 .section__nav .left, .right {
+    width: 14px;
+    height: 14px;
+}
+
+.col1-1-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.section__nav {
+    display: flex;
+    align-items: center;
+}
+
+.section__title {
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.col-2-2-2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section-bordertopbot {
+    border-top: 1px solid #222028;
+    margin-top: 20px;
+}
+
+.section-bordertopbot .container {
+    padding: 20px 0px
+}
+
+/* Section4 */
+.abouthotflix {
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+
+.section__text {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px
+}
+
+.section__text:last-child {
+    margin-bottom: 0;
+}
+
+.section__text:last-child a{
+    color: #f9ab00;
+    text-decoration: none;
+}
+
+.section4 {
+    border-top: 1px solid #222028;
+}
+
+.section4 .container {
+    padding: 70px 10px !important;
+}
+
+.price__item--first {
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #1a191f;
+    position: relative;
+}
+
+.price {
+    padding: 20px;
+    background-color: #222028;
+    border-radius: 6px;
+    margin-top: 30px;
+    width: 30%;
+}
+
+.price__item--first span:last-child {
+    font-weight: 400;
+    color: #f9ab00;
+    display: block;
+    font-size: 2vw;
+    line-height: 100%;
+}
+
+.price__item span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: transparent;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #f9ab00;
+    margin-top: 30px;
+    text-decoration: none ;
+}
+
+.price__btn:hover{
+    background-color: #2D2726;
+}
+
+.price__item--first span:last-child sub {
+    font-size: 14px;
+    bottom: 1px;
+    font-weight: 400;
+}
+
+.border-green {
+    border: 2px solid green ;
+}
+
+.border-green:hover {
+    background-color: #22272C ;
+}
+
+.col2-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__title a:hover {
+    color: #f9ab00;
+}
+
+li {
+    list-style-type:none ;
+}

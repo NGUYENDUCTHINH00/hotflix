@@ -1,0 +1,87 @@
+.footer {
+    border-top: 1px solid #222028;
+}
+
+.footer__content {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    height: 80px;
+    display: flex;
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+}
+
+.footer__logo img {
+    width: 100%;
+}
+
+.footer__copyright {
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 0.4px;
+    margin-left: 50px;
+}
+
+.footer__copyright a {
+    color: #f9ab00;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0;
+    margin-left: auto;
+}
+
+.footer__nav a {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.footer__nav a:last-child {
+    margin-right: 0;
+}
+
+.footer__nav a:hover {
+    color: #f9ab00;
+}
+
+.footer__back {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #f9ab00;
+    color: #fff;
+    right: 0;
+    border-radius: 6px;
+    font-size: 26px;
+}
+
+.footer .container {
+    padding: 0px 10px;
+}
+
+.footer__back:hover {
+    background-color: #2D2726;
+}
+
+button {
+    margin: 0;
+}
